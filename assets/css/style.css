@@ -6,38 +6,75 @@
     scroll-behavior: smooth;
     box-sizing: border-box;
     }
+
+
+
 /* Tipografia pagina */    
 body {
     font-family: 'Cabin', sans-serif;
 }
+
+.navbar{ 
+    height:0px; 
+    width:100%;
+}
+
+.fixed{
+    position:fixed top; 
+    top:20px;
+    z-index: 2;
+}
+
+/* carrusel*/   
+
+
 /* Card- Destacados */
 .card {
     margin-bottom: 50px;
 } 
+
+
+
 /* Card-Titulo */
 #Viajes .card-titulo {
     font-size: 20px;
 }
+
+
+
 /* Card-texto */
 #Viajes .card-titulo .card-texto {
     font-size: 12px;
 }
+
+
+
 /* Formulario de contacto*/
 form {
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 50px;
 }
+
+
+
 /*Footer*/
 footer a {
     text-decoration: none;
 }
+
+
+
+
 /* Media Query -NavBar 1*/
 @media (max-width:768px) {
     .navbar-brand {
         width: 30px;
     }
 }
+
+
+
 /* Media Query -NavBar 2*/
 @media (min-width:769px) {
     .navbar-brand {
